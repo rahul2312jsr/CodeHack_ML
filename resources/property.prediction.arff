@@ -1,0 +1,13 @@
+@relation property.symbolic
+
+@attribute customer {normal,loyal}
+@attribute month {January,February,March,April,May,June,July,August,September,October,November,December}
+@attribute booking_facility {"online", "travel agent","both"}
+@attribute rewards {TRUE, FALSE}
+@attribute services {yes, no}
+@attribute category {General, Deluxe, Executive}
+@attribute price_increase {Yes,No}
+
+@data
+normal,January,"online",FALSE,yes,General,?
+
